@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_content {
+    p {
+        margin: 50px;
+        color: brown;
+        font-size: 1.5rem;
+        text-decoration: underline;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.options {
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: antiquewhite;
+
+}
+
+.msg {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 100px;
+    padding: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hide {
+    display: none;
+}
+
+.winner {
+    background-color: rgb(60, 224, 60);
+}
+
+.loser {
+    background-color: rgb(250, 71, 71);
+}
+
+.draw {
+    background-color: gray;
+}
+
+.Count {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.options:hover {
+    transform: scale(1.2) perspective(500px) translateX(10px);
+
+}
